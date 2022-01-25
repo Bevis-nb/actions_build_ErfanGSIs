@@ -14,7 +14,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://120-238-118-6.ksyungslb.com/bigota.d.miui.com/9.8.29/miui_MIPAD3_9.8.29_7a8c59b59e_7.0.zip?ksy_gslb_referer=http%3A%2F%2Fwww.miui.com%2Fdownload-329.html
+  ROM_URL: https://bigota.d.miui.com/9.8.29/miui_MIPAD3_9.8.29_7a8c59b59e_7.0.zip
   ROM_NAME: MIUI
   BUILD_TYPE: ab
   TZ: Asia/Shanghai

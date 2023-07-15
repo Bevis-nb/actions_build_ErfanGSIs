@@ -16,7 +16,7 @@ on:
 env:
   ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16s_Pro/8.1.8.0/cn/20220925143029/569ef7f6/update.zip
   ROM_NAME: Flyme
-  BUILD_TYPE: a
+  BUILD_TYPE: a-only
   TZ: Asia/Shanghai
 
 jobs:

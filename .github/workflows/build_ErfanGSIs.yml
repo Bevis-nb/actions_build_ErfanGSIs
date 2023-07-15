@@ -14,9 +14,9 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://firmware.meizu.com/Firmware/Flyme/16th/8.1.5.4/cn/20220512222402/d5fbde5b/update.zip
-  ROM_NAME: Flyme
-  BUILD_TYPE: ab
+  ROM_URL: https://bigota.d.miui.com/9.8.29/miui_MIPAD4_9.8.29_6647b25a58_8.1.zip
+  ROM_NAME: MIUI
+  BUILD_TYPE: a
   TZ: Asia/Shanghai
 
 jobs:
@@ -59,7 +59,7 @@ jobs:
          run: |
               cd $GITHUB_WORKSPACE/ErfanGSIs/output
               curl -sL https://git.io/file-transfer | sh
-              ./transfer gof ./final/GSI.zip
+              ./transfer wet ./final/GSI.zip
 
          
             
